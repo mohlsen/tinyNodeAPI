@@ -13,7 +13,8 @@ app.all('*', function(req, res, next) {
 
 app.get('/api/UTC', function(req, res) {
 	"use strict";
-    res.send({serverTime: Date()});
+	var now = new Date();
+    res.send({serverTime: now.toJSON()});
 });
 
 app.get('/api', function(req, res) {
