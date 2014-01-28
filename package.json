@@ -1,0 +1,27 @@
+{
+  "name": "tinyNodeAPI",
+  "version": "0.0.1",
+  "description": "a tiny node site that can be used to test api requests",
+  "main": "server.js",
+  "dependencies": {
+    "express.io": "~1.1.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohlsen/tinyNodeAPI.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "express.io"
+  ],
+  "author": "Mike Ohlsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohlsen/tinyNodeAPI/issues"
+  }
+}
