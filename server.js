@@ -1,7 +1,7 @@
 #!/usr/local/bin/node
 
 var app = require('express.io')(),
-	port = 8080;
+	port = process.env.PORT || 8080;
 
 app.http().io();
 
