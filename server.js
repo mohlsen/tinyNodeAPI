@@ -11,9 +11,19 @@ app.all('*', function(req, res, next) {
   next();
  });
 
+app.get('/api/UTC', function(req, res) {
+	"use strict";
+    res.send({serverTime: Date()});
+});
+
 app.get('/api', function(req, res) {
 	"use strict";
-    res.send({data:'test'});
+    res.send("API Routes can be added...");
+});
+
+app.get('/', function(req, res) {
+	"use strict";
+    res.send("Nothing Here.");
 });
 
 app.listen(port, function () {
